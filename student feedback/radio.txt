@@ -1,0 +1,43 @@
+<div class="Edit-div">
+                <input type="radio" name="que1">Poor
+                <input type="radio" name="que1">Neutral
+                <input type="radio" name="que1">Good
+               <input type="radio" name="que1"> Excellent<br>
+            </div>
+
+ <div class="Edit-div">
+               <input type="radio" name="que2">Poor
+               <input type="radio" name="que2">Neutral
+               <input type="radio" name="que2">Good
+              <input type="radio" name="que2"> Excellent<br>
+            </div>
+
+ <div class="Edit-div">
+              <input type="radio" name="que3">Poor
+              <input type="radio" name="que3">Neutral
+              <input type="radio" name="que3">Good
+              <input type="radio" name="que3"> Excellent<br>
+            </div>
+<div class="Edit-div">   
+               <input type="radio" name="que4">Poor
+               <input type="radio" name="que4">Neutral
+               <input type="radio" name="que4">Good
+                <input type="radio" name="que4"> Excellent<br>
+            </div>
+  <div class="Edit-div">   
+            <input type="radio" name="que5">Poor
+            <input type="radio" name="que5">Neutral
+            <input type="radio" name="que5">Good
+           <input type="radio" name="que5"> Excellent<br>
+        </div>
+<div class="Edit-div">   
+           <input type="radio" name="que6">Poor
+           <input type="radio" name="que6">Neutral
+           <input type="radio" name="que6">Good
+          <input type="radio" name="que6"> Excellent<br>
+        </div>
+ <input type="radio" name="que7">Poor
+          <input type="radio" name="que7">Neutral
+          <input type="radio" name="que7">Good
+          <input type="radio" name="que7"> Excellent<br>
+        </div>

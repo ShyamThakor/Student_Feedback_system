@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-2 ul li a{
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.navbar-2 ul li{
+  border: 1.5px solid rgba(12, 1, 31, 0.479);
+  width: 270px;
+  height: 70px;;
+  text-align: center;
+  padding-top:27px ;
+  background-color: #2ad2d8;
+  font-size: 18px;
+  
+}
+.main-11{
+  display: flex;
+  flex-direction: row;
+}
+.info {
+  background: url("ab.jpg");
+  width: 280vh;
+  height: 100.4vh;
+  position: relative;
+}
+#az{
+  height: 10vh;
+  width:  240vh;
+  font-size: 20px;
+}
+#special{
+  height: 45vh;
+}
+.navbar-2 ul li a:hover{
+    background-color:rgba(0, 149, 248, 0.226);
+}
+.info-p{
+  text-align: center;
+  margin-top:175px; 
+  padding-top: 25px;
+  padding-right: 70px;
+  margin-right: 200px;
+  margin-left: 250px;
+  font-size: 30px;
+  border: 2px solid black;
+  width: 600px;
+  height: 90px;
+  background-color: rgba(0, 149, 248, 0.226);
+}
+.info-p1{
+  text-align: center;
+  margin-right: 390px;
+  margin-top: 30px;
+  font-size: 30px;
+  padding-right: 70px;
+  margin-left: 250px;
+  border: 2px solid black;
+  width: 600px;
+  height: 90px;
+  padding-top: 25px;
+  background-color: rgba(0, 149, 248, 0.226);
+}
+.info table,tr,th,td{
+  border: 2px solid black;
+  font-size: 20px;
+}
+.info th{
+	background-color:rgba(0, 149, 248, 0.226);
+}
+.info th,td{
+
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.info table{
+  margin-top: 100px;
+  margin-left: 120px;
+}
+.info{
+  display: inline;
+}
+
+/* css of feedbackform */
+
+
+.Edit-form{
+  margin-top: 50px;
+  
+  
+}
+.Edit-in{
+   width: 300px;
+   height: 30px;
+   margin-left: 400px;
+}
+
+.topic1{
+  font-size: 20px;
+  margin-left: 400px;
+}
+.Edit-form select{
+  width: 300px;
+  height: 30px;
+  margin-left:400px ;
+  
+}
+.topic12{
+  font-size: 20px;
+  margin-left: 400px;
+  
+}
+.topic13{
+  font-size: 20px;
+  margin-left: 400px;
+}
+.Edit-h2{
+  margin-left: 40px;
+  font-size: 20px;
+}
+.Edit-p{
+  margin-left: 200px;
+  font-size: 19px;
+}
+
+.Edit-text{
+  margin-left: 200px;
+  width: 400px;
+  height: 30px;
+}
+.Edit-div{
+  margin-right: 170px;
+  font-size: 19px;
+  padding-right: 30px;
+  
+  /* padding-left: 30px; */
+}
+.Edit-span{
+  display: flex;
+}
+#Edit-sub{
+  /* margin-left: 550px; */
+  margin-top: 15px;
+  /* margin-right: 200px; */
+  margin-left: 200px;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  box-shadow: 10px;
+  padding: auto;
+}
+#az1{
+  height: 10vh;
+  width: 200vh;
+  font-size: 20px;
+}
+
+/* css of student daseboard */
+.D-board{
+  display: flex;
+  padding: 100px;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.D-board1{
+  padding-right: 80px;
+  padding-left: 32px;
+  font-size: 22px;
+  margin-right: 40px;
+  border: 2px solid black;
+  padding-top: 110px;
+  padding-bottom: 60px;
+  background-color:rgba(0, 149, 248, 0.226) ;
+  border-radius: 20px;
+}
+/* 
+css of post feedback */
+
+
+.Pf-table{
+  border: 2px solid black;
+  margin-left: 170px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
+.Pf-table1{
+  border: 2px solid black;
+  margin-left: 170px;
+  margin-top: 40px;
+  /* margin-bottom: 70px; */
+}
+.Pf-td{
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color:#2ad2d8 ;
+}
+.but{
+  margin-left: 650px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+  margin-bottom: 100px;
+  background-color:#2ad2d8 ;
+}
+
+#special1{
+    height: 48.6vh;
+  
+}
+
+#std_info{
+  height: 115px;
+}
+.stu-a{
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding-left: 24px;
+  padding-right: 24px;
+  border:1px solid black;
+  padding-top:3.3px ;
+  padding-bottom: 3.3px;
+  border-radius: 7px;
+}
+
+.tda{
+  background-color:#2ad2d8 ;
+}
+.lable-sr{
+  margin-left: 123px;
+  margin-top:50px;
+  font-size: 20px;
+}
+.select-sr{
+  margin-left: 120px;
+  margin-top: 15px;
+  width: 200px;
+  height: 30px;
+}
+.btn-5{
+  padding: 5px;
+  background-color:rgba(0, 149, 248, 0.226)  ;
+}
+
+.Edit-h6{
+   visibility: hidden;
+}
+
+.al{
+  background-color: rgba(0, 149, 248, 0.226);
+}
+
+#s_r{
+  height: 160vh;
+}
+#special3{
+  height: 185.5vh;
+}
+
+#st-a{
+  margin-left: 100px;
+  margin-top:100px;
+}
+.sr_btn{
+  padding: 7px;
+  margin-top: 50px;
+  margin-left: 550px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: red;
+  font-size: 15px;
+  border: 1px solid black;
+  color: white;
+  border-radius: 10px;
+}
+
+#p-select{
+  height: 35px;
+  font-size: 17px;
+  width: 250px;
+  border: 1.5px solid black;
+  /* margin-top: 40px; */
+  
+}
+
+.Pf-a{
+  color: white;
+  margin-right: 100px;
+  text-decoration: none;
+  padding:25.5px;
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif; 
+}
+.Pf-a:hover{
+	background-color:#00a8ad;
+}
+
+#az4{
+  width: 200vh;
+  height: 10vh;
+}
+#az45{
+  width: 205.3vh;
+  height: 10vh;
+
+}
+.Admin-div a{
+  color: white;
+  text-decoration: none;
+  margin-right: 70px;
+  font-size: 19.5px;
+  padding: 4px;
+  
+}
+.Admin-div a:hover{
+  background-color: #00a8ad;
+  border-radius: 5px;
+}
+.Admin-div li{
+  list-style: none;
+  display: block;
+}
+.Admin-div ul li ul{
+  display: none;
+}
+.Admin-div ul li:hover> ul{
+  display: block;
+}
+
+#special45{
+  height: 36vh;
+}
+.std-info1{
+  height: 20px;
+}
+
+#az18{
+  width: 202vh;
+  height: 10vh;
+}
+.pas1{
+  margin-top: 30px;
+  margin-left: 132px;
+}
+.Roll-no1{
+  margin-left: 5px;
+}
+#special100{
+  height: 65.5vh;
+}
+#special90{
+  height: 36vh;
+}
+#az90{
+  width: 200vh;
+  height: 10vh;
+}
+
+#az100{
+  height: 10vh;
+  width: 218.5vh;
+}
+#az19{
+  height: 10vh;
+}
+#az40{
+  width: 200vh;
+  height: 10vh;
+}
+.Student-h2{
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 120px;
+  text-decoration: underline;
+  font-size: 27px;
+  color:black;
+}
+
+#Student-table{
+   margin-bottom: 30px;
+}
+
+.Student-a{
+  text-decoration: none;
+  color: black;
+  padding: 13px;
+  border-radius: 10px;
+
+}
+.Student-a:hover{
+  background-color: #80c4f1;
+  
+}
+.Student-a1{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+}
+.Student-a1:hover{
+  background-color: #80c4f1;
+  
+}
+#az461{
+  height: 10vh;
+  width: 227vh;
+}
+.Pf-ta{
+  width: 800px;
+  height: 90px;
+  margin-left: 170px;
+  margin-top: 40px;
+  border: 2px solid black;
+  background-color: ghostwhite;
+}
+
+
+#s_r1{
+  height: 250vh;
+}
+
+#S_m{
+  height: 130vh;
+}

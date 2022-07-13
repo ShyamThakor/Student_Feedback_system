@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP:wght@300&family=Roboto&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url("1.jpg");
+	background-size: cover;
+	background: rgba(0,0,0,0.65);
+	color: white;
+	
+	position: sticky;
+
+}
+.nav-1 ul{
+	padding-right: 30px;
+	  display: flex;
+}
+.nav-1 ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.nav-1 ul li a{
+	color: white;
+	text-decoration: none;
+	padding:20px;
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif; 
+}
+
+.nav-1 ul li a:hover{
+	background-color:#00a8ad;
+}
+.navbar span
+{
+	color: #00a8ad;
+}
+#Home{
+	background:url("ab.jpg");
+	height: 89vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+	
+.main{
+	display: flex;
+}
+.img1{
+	height: 300px;
+	margin-top: 175px;
+	margin-left: 300px;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 250px;
+}
+.btn-1{
+	margin-left: 355px;
+	margin-top: 5px;
+	align-items: center;
+	padding: 13px;
+	background: #00a8ad;
+	border-radius: 10px;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+.btn-a{
+	text-decoration: none;
+	color: black;
+
+}
+.btn-2{
+	margin-left: 380px;
+	align-items: center;
+	padding: 13px;
+	background: #00a8ad;
+	border-radius: 10px;
+	border: 1px solid black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+
+}
+
+
+/*css of contact Us*/
+
+.container-h1{
+	padding-left: 690px;
+	padding-top: 150px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.Registration textarea{
+	margin-bottom: 30px;
+	margin-top: 10px;
+    
+	width: 400px;
+	height: 250px;
+	border: 1.8px solid black;
+}
+::placeholder{
+	padding-left: 0.7rem;
+	font-size: 1rem;
+}
+.pn-1{
+	margin-left: 67px;
+}
+.pn-2{
+	margin-left: 77px;
+}
+.f-name-1{
+	margin-left: 65px;
+}
+
+
+/*css of registration form*/
+.Registration{
+	background:url("ab.jpg");
+	height: 160vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+
+.Registration-h1{
+	padding-left: 670px;
+	padding-top: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.Registration label{
+	padding-right: 420px;
+	font-size: 18px;
+}
+
+.First-name{
+	width: 200px;
+
+}
+.form input{
+	width: 400px;
+	height: 40px;
+	border: 1.8px solid black;
+	line-height: inherit;
+}
+.f-name{
+  margin-left: 95px;
+  margin-top: 14px;
+}
+.l-name{
+	margin-left: 95px;
+	margin-top: 14px;
+}
+.pass{
+	margin-left: 93px;
+	margin-top: 14px;
+	
+}
+.pn{
+	margin-left: 73px;
+	margin-top: 7px;
+}
+.Ge{
+	margin-left: 75px;
+	margin-top: 5px;
+}
+.cou{
+	margin-left: 80px;
+	margin-top: 5px;
+}
+.img{
+	margin-left: 75px;
+	margin-top: 14px;
+}
+.Dob{
+	margin-left: 117px;
+	margin-top: 14px;
+}
+.Registration select{
+	width: 400px;
+	height: 30px;
+	margin-top: 20px;
+	border: 1.8px solid black;
+}
+.btn{
+	margin-bottom: 20px;
+}
+.msg{
+	margin-left: 80px;
+}
+.Cn{
+	margin-left: 60px;
+}
+/*css of login page*/
+.Roll-no{
+	margin-right: 275px;
+	font-size: 18px;
+}
+.pas{
+	margin-right: 328px;
+	padding: auto;
+	font-size: 18px;
+}
+.btn-10{
+	margin-top: 20px;
+	font-size: 18px;
+}
+.btn-9{
+	font-size: 18px;
+}
+.Registration a{
+	color: #00a8ad;
+	text-decoration: none;
+}
+
+#fr{
+	padding-top: 190px;
+	margin-bottom:auto;
+}
+.login-h1{  
+   text-align: center;
+	margin-bottom: 20px;
+     
+}
+.Registration a{
+	color: #00a8ad;
+	text-decoration: none;
+
+}
+.login-last{
+	display: flex;
+	flex-direction: row;
+	padding-left: 567px;
+	font-size: 20px;
+}
+.login-a{
+	padding-top: 30px;
+	padding-left: 567px;
+	font-size: 20px;
+}
+.login{
+	background:url("ab.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.pw{
+	padding-right: 333px;
+}
+.S-id{
+	padding-left: 120px;
+	padding-top: 30px;
+
+}
+.type1{
+	padding-left: 100px;
+}
+.F-id{
+    padding-left: 100px;
+}
+
+/* New admin css */
+.Roll-no1{
+	padding-right: 330px;
+	font-size: 18px;
+}
+
+.Registration-h123{
+	padding-left: 650px;
+	padding-top: 100px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#Registration1{
+	height: 87.8vh;
+	
+}
+.Roll-no10{
+	font-size: 19px;
+	margin-right: 324px;
+}
+
+.slider{
+	overflow: hidden;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	animation: 18s slider infinite;
+}
+.slider figure img{
+	float: left;
+	width: 20%;
+	height: 81vh;
+	
+}
+@keyframes slider {
+	0%{
+      left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left:-300%;
+	}
+	90%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+
+#azf{
+	height: 13vh;
+	
+}
+.azf1{
+	font-size: 43px;
+}
+.azf-a{
+	font-size: 53px;
+	padding: 10px;
+	border-radius: 15px;
+}
